@@ -8,7 +8,7 @@ a=int(a)
 b=int(b)
 print(a)
 print(b)
-과 같은 방법으로 가능하다.
+과 같은 방법으로 가능하다. 
 """
 
 a = input()
