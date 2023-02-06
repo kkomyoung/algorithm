@@ -15,6 +15,5 @@ print(chr(n+1))
 
 """
 
-s = ord(input())
-print(s)
+
 
