@@ -33,11 +33,9 @@ N, K, 그리고 배열 A와 B의 정보가 주어졌을 때, 최대 K번의 바�
 26
 """ 
 
-n = 5
-k = 3
-
-a = [1, 2, 5, 4, 3]
-b = [5, 5, 6, 6, 5]
+n, k = map(int, input().split())
+a = list(map(int, input().split()))
+b = list(map(int, input().split()))
 
 a.sort()
 b.sort(reverse=True)
@@ -49,4 +47,6 @@ for i in range(k):
         break
 
 print(sum(a))
+
+
 
