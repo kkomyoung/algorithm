@@ -54,24 +54,22 @@ elif 를 사용하면 if ... else ... 구조를 겹쳐 사용할 때처럼, 여�
 
 평가 기준
 점수 범위 : 평가
- 90 ~ 100 : A
- 70 ~   89 : B
- 40 ~   69 : C
-  0 ~   39 : D
+90 ~ 100 : A
+70 ~   89 : B
+40 ~   69 : C
+0 ~   39 : D
 로 평가되어야 한다.
 
 """
 
 a = int(input())
 
-if a<0:
-  if a%2 == 0:
-    print('A')
-  else:
-    print('B')
+if 90 <= a <= 100:
+  print('A')
+elif 70 <= a <= 89:
+  print('B')
+elif 40 <= a <= 69:
+  print('C')
 else:
-  if a%2 == 0:
-    print('C')
-  else:
-    print('D')
+  print('D')
 
