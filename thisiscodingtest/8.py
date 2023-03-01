@@ -17,4 +17,3 @@ numberArr = list(map(int, re.findall(r'[0-9]', N)))
 
 print(''.join(alphabetArr)+str(sum(numberArr)))
 
-

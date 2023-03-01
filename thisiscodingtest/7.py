@@ -16,7 +16,7 @@
 """
 
 scoreArr = list(map(int, input()))
-chunk_size = int(len(scoreArr)/2) #점수를 반절로 나누면 몇개인지
+chunk_size = len(scoreArr//2) #점수를 반절로 나누면 몇개인지
 chunkedArr = []
 
 for i in range(0, len(scoreArr), chunk_size):
