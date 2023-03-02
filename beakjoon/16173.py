@@ -1,9 +1,6 @@
-
 from collections import deque
 
 n = int(input())
-
-
 graph = []
 
 for _ in range(n):
@@ -11,8 +8,6 @@ for _ in range(n):
 
 # 방문 유무 확인 배열
 visited = [[False]*n for _ in range(n)]
-
-print(visited)
 
 # 이동할 방향
 dx = [1, 0]
